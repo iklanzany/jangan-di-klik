@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html>
+<html xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
+<head>
+  <meta charset='utf-8'/>
+  <meta content='width=device-width, initial-scale=1.0' name='viewport'/>
+  <title><data:blog.pageTitle/></title>
+  <b:skin><![CDATA[
+    :root {
+      --primary: #42c16e;
+      --font: 'Segoe UI', sans-serif;
+      --radius: 12px;
+      --svg-size: 22px;
+    }
+
+    html, body {
+      width: 100%;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: var(--font);
+    }
+
+    .page-wrapper {
+      max-width: 600px;
+      margin: 2rem auto;
+      padding: 2rem;
+      background: #fff;
+      border-radius: var(--radius);
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+      text-align: center;
+    }
+
+    .avatar {
+      width: 100px;
+      height: 100px;
+      border-radius: 100px;
+      margin-bottom: 1rem;
+      object-fit: cover;
+      border: 3px solid var(--primary);
+    }
+
+    .name {
+      font-size: 1.5rem;
+      font-weight: bold;
+    }
+
+    .desc {
+      color: #555;
+      margin-bottom: 2rem;
+    }
+
+    .link-button {
+      display: block;
+      margin: 0.5rem 0;
+      padding: 12px 16px;
+      background: var(--primary);
+      color: #fff;
+      border-radius: var(--radius);
+      text-decoration: none;
+      transition: background 0.3s ease;
+      width: 100%;
+      box-sizing: border-box;
+    }
+
+    .link-button:hover {
+      background: #369f5a;
+    }
+
+    .post-body {
+      text-align: left;
+      margin-top: 2rem;
+      line-height: 1.6;
+    }
+  ]]></b:skin>
+</head>
+
+<body>
+  <div class='page-wrapper'>
+    <img alt='Foto Profil' class='avatar' src='https://files.catbox.moe/h3l13e.jpg'/>
+
+    <b:section class='name-section' id='name' maxwidgets='1' name='Name' showaddelement='yes'/>
+    <b:section class='desc-section' id='description' maxwidgets='1' name='Description' showaddelement='yes'/>
+       
+
+    <!-- Link Monetag -->
+    <a class='link-button' href='https://otieu.com/4/9412409' target='_blank'>Jangan Di Klik</a>
+    <!-- Link Adsterra -->
+    <a class='link-button' href='https://widespreadcomponent.com/qpqd7670q7?key=8f247dbe26a4c4571e3d196c9944b123' target='_blank'>Jangan Di Klik</a>
+    <!-- Link HilltopAds -->
+    <a class='link-button' href='https://smoggyfeed.com/cxnPCS' target='_blank'>Jangan Di Klik</a>
+    <!-- Link Keajaiban Website -->
+    <a class='link-button' href='https://www.keajaibanwebsite.com/anymovies24' target='_blank'>Jangan Di Klik</a>
+  </div>
+</body>
+</html>
